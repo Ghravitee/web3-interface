@@ -16,7 +16,7 @@ const Hero = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true }}
-      className="grid grid-cols-3 grid-rows-3 gap-6">
+      className="grid grid-cols-3 grid-rows-3 lg:grid-rows-1 gap-6">
         
         <a
           href="https://warpcast.com/spongebase"
