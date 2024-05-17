@@ -36,6 +36,11 @@ const Info = () => {
       desc: "3/3 tax roundtrip, all for marketing",
       color: "rgba(255, 205, 86, 0.8)"
     },
+    {
+      title: "Contract Address",
+      desc: "Up soon!",
+      color: "rgba(75, 192, 192, 0.8)"
+    },
   ]
 
   return (

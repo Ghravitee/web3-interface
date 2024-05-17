@@ -25,7 +25,7 @@ const Accordion = ({ open, toggle, title, desc, color }) => {
           </div> */}
         </div>
         <Collapse isOpened={open}>
-          <div className="text-white text-xl"
+          <div className="text-white text-2xl"
           >
             {desc}
           </div>
