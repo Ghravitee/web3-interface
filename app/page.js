@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
   <>
-      <div className="bg-heropattern bg-no-repeat bg-cover bg-top px-4 pt-8 pb-16 lg:px-28 md:px-10" >
+      <div className="bg-heropattern bg-no-repeat bg-cover bg-top min-h-screen px-4 pt-8 lg:pt-0 pb-16 lg:px-28 md:px-10" >
         <Hero />
       </div>
       <div className="px-10 pt-8 pb-16 lg:px-28 md:px-10">
