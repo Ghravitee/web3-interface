@@ -16,13 +16,7 @@ const Accordion = ({ open, toggle, title, desc, color }) => {
           <p className="large-text font-semibold text-white mr-20">
             {title}
           </p>
-          {/* <div className="">
-            {open ? (
-              <AiOutlineMinus color="white" className="text-gray-600 w-6 h-6 transition-transform duration-300 transform rotate-180" />
-            ) : (
-              <AiOutlinePlus color="white" className="text-gray-600 w-6 h-6 transition-transform duration-300 transform rotate-0" />
-            )}
-          </div> */}
+          
         </div>
         <Collapse isOpened={open}>
           <div className="text-white text-2xl"
