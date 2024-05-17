@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import heroImage from "../../public/hero-sponge.png";
+import heroImage from "../../public/hero-sponge.PNG";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center bg-heropattern2">
       <div>
-        <Image src={heroImage} alt="hero" height={350} width={350} />
+        <Image src="/hero-sponge.PNG" alt="hero" height={350} width={350} />
       </div>
       <h1 className="text-5xl lg:text-8xl mb-6">SpongeBase</h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 grid-rows-3 gap-6">

@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        heropattern: "url('/public/sponge2.PNG')",
+        "heropattern": "url('/bikini-bottom.jpg')",
+        
       },
     },
   },

@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${rye.className} overflow-y-scroll overflow-x-hidden`}>{children}</body>
+      <body className={`${rye.className} bg-[#FDFF75] overflow-y-scroll overflow-x-hidden`}>{children}</body>
     </html>
   );
 }
