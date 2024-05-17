@@ -27,8 +27,8 @@ const Info = () => {
       color: "rgba(255, 205, 86, 0.8)"
     },
     {
-      title: "Liquidity Locked for 1 month",
-      desc: "Locked",
+      title: "Liquidity",
+      desc: "Liquidity Locked for 1 month",
       color: "rgba(75, 192, 192, 0.8)"
     },
     {
