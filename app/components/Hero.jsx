@@ -20,19 +20,19 @@ const Hero = () => {
         
         <a
           href="https://warpcast.com/spongebase"
-          className="col-start-1 col-end-2 lg:row-span-1 lg:col-start-1 lg:col-end-2 flex justify-center items-center py-3 px-4 md:px-10 text-black cursor-pointer shadow-[2px_2px_0px_1px_#000000] bg-[#FDFF75] border-black border"
+          className="hover:transform hover:-translate-y-2 transition duration-300 col-start-1 col-end-2 lg:row-span-1 lg:col-start-1 lg:col-end-2 flex justify-center items-center py-3 px-4 md:px-10 text-black cursor-pointer shadow-[2px_2px_0px_1px_#000000] bg-[#FDFF75] border-black border"
         >
           warpcast
         </a>
         <a
           href="https://t.me/SpongeBaseS"
-          className="lg:col-start-2 lg:col-end-3 col-start-2 col-end-3 lg:row-span-1 row-start-2 row-end-3 flex justify-center items-center py-3 px-4 md:px-10 text-black cursor-pointer shadow-[2px_2px_0px_1px_#000000] bg-[#FDFF75] border-black border"
+          className="hover:transform hover:-translate-y-2 transition duration-300 lg:col-start-2 lg:col-end-3 col-start-2 col-end-3 lg:row-span-1 row-start-2 row-end-3 flex justify-center items-center py-3 px-4 md:px-10 text-black cursor-pointer shadow-[2px_2px_0px_1px_#000000] bg-[#FDFF75] border-black border"
         >
           Telegram
         </a>
         <a
           href="https://x.com/spongebases?s=21"
-          className="lg:col-start-3 lg:col-end-4 lg:row-span-1 row-start-1 row-end-2 col-start-3 col-end-4 flex justify-center items-center py-3 px-4 md:px-10 text-black cursor-pointer shadow-[2px_2px_0px_1px_#000000] bg-[#FDFF75]  border-black border"
+          className="hover:transform hover:-translate-y-2 transition duration-300 lg:col-start-3 lg:col-end-4 lg:row-span-1 row-start-1 row-end-2 col-start-3 col-end-4 flex justify-center items-center py-3 px-4 md:px-10 text-black cursor-pointer shadow-[2px_2px_0px_1px_#000000] bg-[#FDFF75]  border-black border"
         >
           Twitter
         </a>
