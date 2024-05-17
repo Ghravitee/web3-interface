@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <div>
-        <Image src="/hero-sponge.PNG" alt="hero" height={250} width={250} className="lg:w-[250px] lg:h-[250px]" />
+        <Image src="/hero-sponge.PNG" alt="hero" height={250} width={250} className="" />
       </div>
       <h1 className="text-5xl lg:text-8xl mb-10 text-[#FDFF75]">SpongeBase</h1>
       <div className="grid grid-cols-3 grid-rows-3 gap-6">
