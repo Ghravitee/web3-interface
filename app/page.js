@@ -15,7 +15,7 @@ export default function Home() {
       <div className="px-10 pt-8 pb-16 lg:px-28 md:px-10">
         <About />
       </div>
-      <div className="px-4 py-4 md:p-4 lg:px-10  ">
+      <div className="px-4 py-4 mb-10 md:p-4 lg:px-10  ">
         <Info />
       </div>
       <div className="px-4 py-4 bg-yellow-400 flex justify-center items-center">
