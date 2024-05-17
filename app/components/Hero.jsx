@@ -4,7 +4,7 @@ import heroImage from "../../public/hero-sponge.PNG";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-heropattern2">
+    <div className="flex flex-col justify-center items-center bg-heropattern">
       <div>
         <Image src="/hero-sponge.PNG" alt="hero" height={350} width={350} />
       </div>
