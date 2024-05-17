@@ -1,7 +1,9 @@
+"use client"
 import React from "react";
 import Image from "next/image";
 import heroImage from "../../public/hero-sponge.PNG";
-
+import { motion } from "framer-motion";
+import { spring } from "@/utils/motion";
 const Hero = () => {
   return (
     <div className="flex flex-col justify-center items-center">
@@ -9,7 +11,12 @@ const Hero = () => {
         <Image src="/hero-sponge.PNG" alt="hero" height={250} width={250} className="" />
       </div>
       <h1 className="text-5xl lg:text-8xl mb-10 text-[#FDFF75]">SpongeBase</h1>
-      <div className="grid grid-cols-3 grid-rows-3 gap-6">
+      <motion.div
+      variants={spring}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true }}
+      className="grid grid-cols-3 grid-rows-3 gap-6">
         
         <a
           href="https://warpcast.com/spongebase"
@@ -30,7 +37,7 @@ const Hero = () => {
           Twitter
         </a>
         
-      </div>
+      </motion.div>
     </div>
   );
 };

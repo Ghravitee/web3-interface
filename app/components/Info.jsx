@@ -1,6 +1,8 @@
 "use client"
 import { useState } from "react";
 import Accordion from "@/utils/Accordion";
+import { motion } from "framer-motion";
+import { spring } from "@/utils/motion";
 
 const Info = () => {
 
@@ -25,20 +27,25 @@ const Info = () => {
       color: "rgba(255, 205, 86, 0.8)"
     },
     {
-      title: "Liquidity",
+      title: "Liquidity Locked for 1 month",
       desc: "Locked",
       color: "rgba(75, 192, 192, 0.8)"
     },
     {
       title: "Tax",
-      desc: "3/3",
+      desc: "3/3 tax roundtrip, all for marketing",
       color: "rgba(255, 205, 86, 0.8)"
     },
   ]
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2">
-      <h2 className="text-black text-[2.7rem] lg:text-6xl text-center md:self-center font1 font-bold uppercase mb-6">Learn more about Spongebase</h2>
+      <motion.h2
+      variants={spring}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true }}
+      className="text-black text-[2.7rem] lg:text-6xl text-center md:self-center font1 font-bold uppercase mb-6">Learn more about Spongebase</motion.h2>
       <div className="grid grid-cols-1 gap-4">
        {accordionData.map((item, index) => {
          return <Accordion
