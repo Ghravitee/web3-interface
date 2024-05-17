@@ -38,7 +38,7 @@ const Info = () => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2">
-      <h2 className="text-black text-5xl lg:text-6xl text-center md:self-center font1 font-bold uppercase mb-6">Learn more about Spongebase</h2>
+      <h2 className="text-black text-[2.7rem] lg:text-6xl text-center md:self-center font1 font-bold uppercase mb-6">Learn more about Spongebase</h2>
       <div className="grid grid-cols-1 gap-4">
        {accordionData.map((item, index) => {
          return <Accordion
