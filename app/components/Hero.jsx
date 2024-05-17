@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <div>
-        <Image src="/hero-sponge.PNG" alt="hero" height={250} width={250} className="" />
+        <Image src="/hero-sponge.PNG" alt="hero" height={225} width={225} className="" />
       </div>
       <h1 className="text-5xl lg:text-8xl mb-10 text-[#FDFF75]">SpongeBase</h1>
       <motion.div
