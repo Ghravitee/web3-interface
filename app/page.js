@@ -12,7 +12,7 @@ export default function Home() {
       <div className="bg-heropattern bg-no-repeat bg-cover bg-top min-h-screen px-4 pt-0 lg:pt-0 lg:pb-12 pb-16 lg:px-28 md:px-10" >
         <Hero />
       </div>
-      <div className="px-10 pt-8 pb-16 lg:px-28 md:px-10">
+      <div className="px-10 pt-8 pb-16 lg:px-28 lg:pt-16 md:px-10">
         <About />
       </div>
       <div className="px-4 py-4 mb-10 md:p-4 lg:px-10  ">
