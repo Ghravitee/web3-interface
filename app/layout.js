@@ -4,7 +4,7 @@ import "./globals.css";
 const rye = Rye({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
-  title: "SpongeBAse",
+  title: "SpongeBase",
   description: "The Sponge on Base",
 };
 
