@@ -38,7 +38,7 @@ const Info = () => {
     },
     {
       title: "Contract Address",
-      desc: "Up soon!",
+      desc: "0xE00375b4b31652cA4e1e9Fc7Fd30194cF5414e2F",
       color: "rgba(75, 192, 192, 0.8)"
     },
   ]
